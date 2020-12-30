@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "DungGeunMo";
+  src: url("DungGeunMo.woff");
+}
+
+body {
+  margin: 20px;
+  font-family: "DungGeunMo";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #1a807a;
+  color: #ffffff;
+  font-size: large;
+}
