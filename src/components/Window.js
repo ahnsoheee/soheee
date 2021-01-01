@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Window = styled.div`
-  width: 800px;
+  width: 770px;
   height: auto;
   position: absolute;
   top: 50%;

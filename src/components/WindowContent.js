@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const WindowContent = styled.div`
-  width: 770px;
+  width: 738px;
   height: 500px;
   margin-left: 30px;
   overflow: auto;
