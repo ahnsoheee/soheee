@@ -8,9 +8,11 @@ const Footer = () => {
   const date = new Date();
   let hour = date.getHours();
   let min = date.getMinutes();
+  let sec = date.getSeconds();
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const getTime = () => {
-    setTime(`${hour}:${min}`);
+    setTime(`${hour}:${min}:${sec}`);
   };
 
   useEffect(() => {
@@ -18,7 +20,7 @@ const Footer = () => {
       getTime();
     }, 1000);
     return () => clearInterval(timer);
-  }, [time]);
+  }, [getTime]);
 
   return (
     <Container>
