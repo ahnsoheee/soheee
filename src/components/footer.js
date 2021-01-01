@@ -1,10 +1,25 @@
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import Window from "../image/window.png";
 import Icon from "./Icon";
-import moment from "moment";
 
-const time = moment().format("HH:mm");
 const Footer = () => {
+  const [time, setTime] = useState("");
+  const date = new Date();
+  let hour = date.getHours();
+  let min = date.getMinutes();
+
+  const getTime = () => {
+    setTime(`${hour}:${min}`);
+  };
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      getTime();
+    }, 1000);
+    return () => clearInterval(timer);
+  }, [time]);
+
   return (
     <Container>
       <Start>
