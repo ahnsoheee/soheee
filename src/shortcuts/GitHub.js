@@ -15,7 +15,7 @@ import Arrow from "../image/arrow.png";
 const GitHub = ({ onClose }) => {
   return (
     <Window>
-      <ButtonBar text="GitHub 이슈 관리 서비스 클론.txt" onClose={onClose} />
+      <ButtonBar text="GitHub 이슈 관리 서비스 클론.pdf" onClose={onClose} />
       <WindowContent>
         <br />
         1. 소개
@@ -38,7 +38,7 @@ const GitHub = ({ onClose }) => {
           <LinkContent>시연 영상</LinkContent>
         </Link>
         <br />
-        <br />- GitHub 이슈 관리 서비스 클론 프로젝트
+        <br /> - GitHub 이슈 관리 서비스 클론 프로젝트
         <br /> - Issue를 조회, 생성, 수정, 삭제할 수 있습니다.
         <br /> - Issue 목록을 필터링할 수 있습니다.
         <br /> - Label을 조회, 생성, 수정, 삭제할 수 있습니다.
