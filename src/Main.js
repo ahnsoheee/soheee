@@ -26,7 +26,7 @@ const Main = () => {
 
   return (
     <FlexBox onClick={() => setSkip(true)}>
-      <Section margin="10px 200px 10px 10px">
+      <Section margin="20px 200px 10px 10px">
         <Shortcuts>
           <Icon src={Taxi} width="40px" height="40px" onClick={() => setUber(true)} />
           <Name>택시 자버</Name>
@@ -61,7 +61,7 @@ const Main = () => {
           <Name>인턴 활동</Name>
         </Shortcuts>
       </Section>
-      <Section margin="20px 0">
+      <Section margin="30px 0">
         {skip ? (
           <>
             안소희 포트폴리오
