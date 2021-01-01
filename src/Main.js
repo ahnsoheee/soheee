@@ -4,6 +4,8 @@ import Typing from "react-typing-animation";
 import Taxi from "./image/taxi.png";
 import GitHubBlack from "./image/github2.png";
 import AI from "./image/ai.png";
+import AirbnbLogo from "./image/airbnbLogo.png";
+import Laptop from "./image/laptop.png";
 import Blog from "./image/blog.png";
 import Mail from "./image/mail.png";
 import Icon from "./components/Icon";
@@ -11,12 +13,16 @@ import FlexBox from "./components/FlexBox";
 import Uber from "./shortcuts/Uber";
 import GitHub from "./shortcuts/GitHub";
 import Stock from "./shortcuts/Stock";
+import Airbnb from "./shortcuts/Airbnb";
+import Intern from "./shortcuts/Intern";
 
 const Main = () => {
   const [skip, setSkip] = useState(false);
   const [uber, setUber] = useState(false);
   const [gitHub, setGitHub] = useState(false);
   const [stock, setStock] = useState(false);
+  const [airbnb, setAirbnb] = useState(false);
+  const [intern, setIntern] = useState(false);
 
   return (
     <FlexBox onClick={() => setSkip(true)}>
@@ -34,6 +40,12 @@ const Main = () => {
         <br />
         <br />
         <Shortcuts>
+          <Icon src={AirbnbLogo} width="30px" height="30px" onClick={() => setAirbnb(true)} />
+          <Name>Airbnb</Name>
+        </Shortcuts>
+        <br />
+        <br />
+        <Shortcuts>
           <Icon src={AI} width="30px" height="30px" onClick={() => setStock(true)} />
           <br />
           <Name>
@@ -41,6 +53,12 @@ const Main = () => {
             <br />
             어드바이저
           </Name>
+        </Shortcuts>
+        <br />
+        <br />
+        <Shortcuts>
+          <Icon src={Laptop} width="30px" height="30px" onClick={() => setIntern(true)} />
+          <Name>인턴 활동</Name>
         </Shortcuts>
       </Section>
       <Section margin="20px 0">
@@ -150,6 +168,8 @@ const Main = () => {
       {uber && <Uber onClose={() => setUber(false)} />}
       {gitHub && <GitHub onClose={() => setGitHub(false)} />}
       {stock && <Stock onClose={() => setStock(false)} />}
+      {airbnb && <Airbnb onClose={() => setAirbnb(false)} />}
+      {intern && <Intern onClose={() => setIntern(false)} />}
     </FlexBox>
   );
 };
