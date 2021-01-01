@@ -15,7 +15,7 @@ import Video from "../image/video.png";
 const Uber = ({ onClose }) => {
   return (
     <Window>
-      <ButtonBar text="Uber 서비스 클론.txt" onClose={onClose} />
+      <ButtonBar text="Uber 서비스 클론.pdf" onClose={onClose} />
       <WindowContent>
         <br />
         1. 소개

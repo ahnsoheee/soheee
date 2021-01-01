@@ -13,7 +13,7 @@ import Lstm from "../image/lstm.png";
 const Stock = ({ onClose }) => {
   return (
     <Window>
-      <ButtonBar text="맞춤형 주식 추천 인공지능.txt" onClose={onClose} />
+      <ButtonBar text="맞춤형 주식 추천 인공지능.pdf" onClose={onClose} />
       <WindowContent>
         <br />
         1. 소개
