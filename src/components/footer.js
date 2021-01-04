@@ -51,7 +51,8 @@ const Start = styled.div`
   margin: 5px;
   border-top: 2px solid #ffffff;
   border-left: 2px solid #ffffff;
-  box-shadow: 1px 1px 1px 1px #000000;
+  border-bottom: 2px solid #6d6d6d;
+  border-right: 2px solid #6d6d6d;
 `;
 
 const Text = styled.text`
@@ -69,6 +70,7 @@ const Time = styled.div`
   text-align: center;
   border-top: 2px solid #6d6d6d;
   border-left: 2px solid #6d6d6d;
-  box-shadow: 1px 1px 1px 1px #ffffff;
+  border-bottom: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
 `;
 export default Footer;
