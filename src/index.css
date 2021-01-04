@@ -5,6 +5,7 @@
 
 body {
   margin: 0;
+  min-width: 800px;
   font-family: "DungGeunMo";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
