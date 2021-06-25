@@ -135,7 +135,7 @@ const Main = () => {
                 Blog
               </FlexBox>
               &nbsp; &nbsp;
-              <FlexBox style={{ cursor: "pointer" }} onClick={() => window.open("https://www.notion.so/Portfolio-5228f125884240378bab706dbc1f7c9a")}>
+              <FlexBox style={{ cursor: "pointer" }} onClick={() => window.open("https://www.notion.so/388cbe206acb4c0783d2e94efbbc609c")}>
                 <Icon src={Notion} width="20px" height="20px" />
                 Notion
               </FlexBox>
