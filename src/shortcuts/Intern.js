@@ -1,9 +1,8 @@
 import ButtonBar from "../components/ButtonBar";
-import Image from "../components/Image";
 import Window from "../components/Window";
 import WindowContent from "../components/WindowContent";
 
-const Airbnb = ({ onClose }) => {
+const Intern = ({ onClose }) => {
   return (
     <Window>
       <ButtonBar text="인턴 활동.txt" onClose={onClose} />
@@ -51,4 +50,4 @@ const Airbnb = ({ onClose }) => {
   );
 };
 
-export default Airbnb;
+export default Intern;
