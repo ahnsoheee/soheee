@@ -39,7 +39,7 @@ const Main = () => {
         <br />
         <Shortcuts>
           <Icon src={GitHubBlack} width="30px" height="30px" onClick={() => setGitHub(true)} />
-          <Name>GitHub 이슈</Name>
+          <Name>GitHub 이슈트래커</Name>
         </Shortcuts>
         <br />
         <br />
@@ -48,16 +48,6 @@ const Main = () => {
           <Name>Airbnb</Name>
         </Shortcuts>
         <br />
-        <br />
-        <Shortcuts>
-          <Icon src={AI} width="30px" height="30px" onClick={() => setStock(true)} />
-          <br />
-          <Name>
-            로보
-            <br />
-            어드바이저
-          </Name>
-        </Shortcuts><br />
         <br />
         <Shortcuts>
           <Icon src={AccountbookLogo} width="30px" height="30px" onClick={() => setAccountbook(true)} />
@@ -84,7 +74,11 @@ const Main = () => {
               * 기술
               <br />
               <br />
-              JavaScript TypeScript Python Java Node.js SpringBoot React Express Redux MySQL MongoDB Mongoose GraphQL 
+              Back-end : Node.js SpringBoot Express MySQL MongoDB GraphQL Apollo-Server
+              <br />
+              Front-end : React Redux VanillaJS Apollo-Client
+              <br />
+              Language : Python JavaScript TypeScript Java SQL
               <br />
               <br />
               <br />
@@ -163,8 +157,11 @@ const Main = () => {
                 * 기술
                 <br />
                 <br />
-                JavaScript TypeScript Python Java Node.js SpringBoot React Express Redux MySQL MongoDB Mongoose GraphQL 
+                Back-end : Node.js SpringBoot Express MySQL MongoDB GraphQL Apollo-Server
                 <br />
+                Front-end : React Redux VanillaJS Apollo-Client
+                <br />
+                Language : Python JavaScript TypeScript Java SQL<br />
                 <br />
                 <br />
                 * 경력
