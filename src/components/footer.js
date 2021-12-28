@@ -4,34 +4,34 @@ import Window from "../image/window.png";
 import Icon from "./Icon";
 
 const Footer = () => {
-  const [time, setTime] = useState("");
-  const date = new Date();
-  let hour = date.getHours();
-  let min = date.getMinutes();
-  let sec = date.getSeconds();
+    const [time, setTime] = useState("");
+    const date = new Date();
+    let hour = date.getHours();
+    let min = date.getMinutes();
+    let sec = date.getSeconds();
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  const getTime = () => {
-    setTime(`${hour}:${min}:${sec}`);
-  };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    const getTime = () => {
+        setTime(`${hour}:${min}:${sec}`);
+    };
 
-  useEffect(() => {
-    const timer = setInterval(() => {
-      getTime();
-    }, 1000);
-    return () => clearInterval(timer);
-  }, [getTime]);
+    useEffect(() => {
+        const timer = setInterval(() => {
+            getTime();
+        }, 1000);
+        return () => clearInterval(timer);
+    }, [getTime]);
 
-  return (
-    <Container>
-      <Start>
-        <Icon src={Window} width="25px" />
-        <Text>Start</Text>
-      </Start>
-      <Content />
-      <Time>{time}</Time>
-    </Container>
-  );
+    return (
+        <Container>
+            <Start>
+                <Icon src={Window} width="25px" />
+                <Text>Start</Text>
+            </Start>
+            <Content />
+            <Time>{time}</Time>
+        </Container>
+    );
 };
 
 const Container = styled.div`
