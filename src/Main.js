@@ -58,12 +58,12 @@ const Main = () => {
                 </Shortcuts>
                 <br />
                 <br />
-                <Shortcuts>
+                {/*<Shortcuts>
                     <Icon src={Pdf} width="30px" height="30px" onClick={() => setAirbnb(true)} />
                     <Name>Airbnb</Name>
                 </Shortcuts>
                 <br />
-                <br />
+                <br />*/}
                 <Shortcuts>
                     <Icon src={Pdf} width="30px" height="30px" onClick={() => setIntern(true)} />
                     <Name>인턴</Name>
@@ -105,9 +105,9 @@ const Main = () => {
                             * 기술
                             <br />
                             <br />
-                            Back-end : Node.js SpringBoot Express MySQL MongoDB GraphQL Apollo-Server
+                            Back-end : Node.js SpringBoot MySQL MongoDB GraphQL Apollo-Server
                             <br />
-                            Front-end : React ReactNative Redux VanillaJS Apollo-Client
+                            Front-end : React ReactNative Redux Apollo-Client
                             <br />
                             Language : Python JavaScript TypeScript Java SQL
                             <br />
@@ -125,10 +125,10 @@ const Main = () => {
                             3. GitHub Issue Tracker 클론
                             <br />
                             4. 가계부
-                            <br />
+                            {/*<br />
                             5. Todo List
                             <br />
-                            6. Airbnb 클론
+                            6. Airbnb 클론*/}
                             <br />
                             <br />
                             <br />
@@ -194,9 +194,9 @@ const Main = () => {
                                 * 기술
                                 <br />
                                 <br />
-                                Back-end : Node.js SpringBoot Express MySQL MongoDB GraphQL Apollo-Server
+                                Back-end : Node.js SpringBoot MySQL MongoDB GraphQL Apollo-Server
                                 <br />
-                                Front-end : React ReactNative Redux VanillaJS Apollo-Client
+                                Front-end : React ReactNative Redux Apollo-Client
                                 <br />
                                 Language : Python JavaScript TypeScript Java SQL
                                 <br />
@@ -214,10 +214,10 @@ const Main = () => {
                                 3. GitHub Issue Tracker 클론
                                 <br />
                                 4. 가계부
-                                <br />
+                                {/*<br />
                                 5. Todo List
                                 <br />
-                                6. Airbnb 클론
+                                6. Airbnb 클론*/}
                                 <br />
                                 <br />
                                 <br />
