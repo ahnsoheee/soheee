@@ -16,7 +16,7 @@ import FlexBox from "./components/FlexBox";
 import Cafe from "./shortcuts/Cafe";
 import Uber from "./shortcuts/Uber";
 import GitHub from "./shortcuts/GitHub";
-import Stock from "./shortcuts/Stock";
+//import Stock from "./shortcuts/Stock";
 import Airbnb from "./shortcuts/Airbnb";
 import Intern from "./shortcuts/Intern";
 import Accountbook from "./shortcuts/Accountbook";
@@ -27,7 +27,7 @@ const Main = () => {
     const [uber, setUber] = useState(false);
     const [gitHub, setGitHub] = useState(false);
     //const [stock, setStock] = useState(false);
-    const [airbnb, setAirbnb] = useState(false);
+    //const [airbnb, setAirbnb] = useState(false);
     const [intern, setIntern] = useState(false);
     const [accountbook, setAccountbook] = useState(false);
 
@@ -230,7 +230,7 @@ const Main = () => {
             {uber && <Uber onClose={() => setUber(false)} />}
             {gitHub && <GitHub onClose={() => setGitHub(false)} />}
             {/*{stock && <Stock onClose={() => setStock(false)} />}*/}
-            {airbnb && <Airbnb onClose={() => setAirbnb(false)} />}
+            {/*{airbnb && <Airbnb onClose={() => setAirbnb(false)} />}*/}
             {intern && <Intern onClose={() => setIntern(false)} />}
             {accountbook && <Accountbook onClose={() => setAccountbook(false)} />}
         </FlexBox>
