@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/soheee/static/css/main.8b8be11c.css",
-    "main.js": "/soheee/static/js/main.287e7c64.js",
+    "main.js": "/soheee/static/js/main.89c957f0.js",
     "static/media/airbnb.png": "/soheee/static/media/airbnb.a8a9307622ee14a300b7.png",
     "static/media/cafe.png": "/soheee/static/media/cafe.ceed5afc0951c5969756.png",
     "static/media/deleteReview.gif": "/soheee/static/media/deleteReview.f826fe294b952ebba0f1.gif",
@@ -30,10 +30,10 @@
     "static/media/accountSetting.PNG": "/soheee/static/media/accountSetting.c9b98f1dbb3b3c951ffd.PNG",
     "index.html": "/soheee/index.html",
     "main.8b8be11c.css.map": "/soheee/static/css/main.8b8be11c.css.map",
-    "main.287e7c64.js.map": "/soheee/static/js/main.287e7c64.js.map"
+    "main.89c957f0.js.map": "/soheee/static/js/main.89c957f0.js.map"
   },
   "entrypoints": [
     "static/css/main.8b8be11c.css",
-    "static/js/main.287e7c64.js"
+    "static/js/main.89c957f0.js"
   ]
 }
