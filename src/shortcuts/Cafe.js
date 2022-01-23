@@ -107,9 +107,9 @@ const Cafe = ({ onClose }) => {
                 2. 기술 스택
                 <br />
                 <br />
-                - Front : ReactNative, Styled-component
+                - Front : React Native, Styled-component
                 <br />
-                - Back : Springboot, Maven, MySQL, MyBatis, JWT, AWS
+                - Back : Spring Boot, Maven, MySQL, MyBatis, JWT, AWS
                 <br />
                 <br />
             </WindowContent>

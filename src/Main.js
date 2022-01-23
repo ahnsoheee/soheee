@@ -105,9 +105,9 @@ const Main = () => {
                             * 기술
                             <br />
                             <br />
-                            Back-end : Node.js SpringBoot MySQL MongoDB GraphQL Apollo-Server
+                            Back-end : Node.js Spring-Boot MySQL MongoDB GraphQL Apollo-Server
                             <br />
-                            Front-end : React ReactNative Redux Apollo-Client
+                            Front-end : React React-Native Redux Apollo-Client
                             <br />
                             Language : Python JavaScript TypeScript Java SQL
                             <br />
@@ -194,9 +194,9 @@ const Main = () => {
                                 * 기술
                                 <br />
                                 <br />
-                                Back-end : Node.js SpringBoot MySQL MongoDB GraphQL Apollo-Server
+                                Back-end : Node.js Spring-Boot MySQL MongoDB GraphQL Apollo-Server
                                 <br />
-                                Front-end : React ReactNative Redux Apollo-Client
+                                Front-end : React React-Native Redux Apollo-Client
                                 <br />
                                 Language : Python JavaScript TypeScript Java SQL
                                 <br />

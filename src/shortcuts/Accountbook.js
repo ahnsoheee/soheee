@@ -15,7 +15,7 @@ const Accountbook = ({ onClose }) => {
             <ButtonBar text="가계부.txt" onClose={onClose} />
             <WindowContent>
                 <br />
-                가계부 | 2020.10 - 2020.11 : Node.js / 2021.05 - 2021.06 (Springboot) (개인)
+                가계부 | 2020.10 - 2020.11 : Node.js / 2021.05 - 2021.06 : Spring Boot (개인)
                 <br />
                 <br />
                 <Link onClick={() => window.open("https://github.com/ahnsoheee/AccountBook", "_black")}>
@@ -24,7 +24,7 @@ const Accountbook = ({ onClose }) => {
                 </Link>
                 <Link onClick={() => window.open("https://github.com/ahnsoheee/AccountBook_SpringBoot", "_black")}>
                     <Image src={GitHubBlack} width="20px" height="20px" />
-                    <LinkContent>GitHub - ver.2) SpringBoot + React</LinkContent>
+                    <LinkContent>GitHub - ver.2) Spring Boot + React</LinkContent>
                 </Link>
                 <br />
                 <br />
@@ -48,7 +48,7 @@ const Accountbook = ({ onClose }) => {
                 <br />
                 - Back (ver.1) : Node.js, Express, MySQL, mysql2, jwt
                 <br />
-                - Back (ver.2) : SpringBoot, MyBatis, MySQL, jwt
+                - Back (ver.2) : Spring Boot, MyBatis, MySQL, jwt
                 <br />
                 <br />
                 <br />
