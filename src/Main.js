@@ -187,6 +187,8 @@ const Main = () => {
                                         <br />
                                         2020.07 ~ 2020.12 부스트캠프 웹풀스택 5기
                                         <br />
+                                        2022.03 ~ 롯데정보통신 Software Engineer
+                                        <br />
                                         <br />
                                     </Right>
                                 </Row>
